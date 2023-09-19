@@ -25,9 +25,10 @@
     }
 
     .section2{
-        height: 100vh;
+        height: auto;
         width: 100%;
         @include flex (column, wrap, center, center, 1rem);
+        padding-top: 70px;
         div{
             img{
                 width: 17rem;
