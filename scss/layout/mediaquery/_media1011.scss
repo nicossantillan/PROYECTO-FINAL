@@ -1,0 +1,12 @@
+@media screen and (max-width: 1011px){
+    footer{
+        height: auto;
+        @include flex (column, wrap, space-between, center, 5rem);
+        section{
+            @include flex (column, wrap, center, center, 5rem);
+        .footer1{
+            @include flex (column, wrap, center, center, 1rem);
+        }
+        }
+    }
+}

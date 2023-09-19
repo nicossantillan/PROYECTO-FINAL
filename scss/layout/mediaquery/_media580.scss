@@ -1,0 +1,39 @@
+@media screen and (max-width: 615px){
+    header{
+        nav{
+            ul{
+                @include flex (row, wrap, space-around, center, 1rem);
+                li{
+                    a{
+                        font-size: .875rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+    }
+}
+    .section1{
+        padding-left: 40px;
+        h2{
+            font-size: 30px;
+            span{
+                font-size: 50px;
+            }
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+    .section2{
+        padding-bottom: 90px;
+        div{
+            img{
+                width: 17rem;
+                height: auto;
+            }
+        }
+        .nosotros{
+            width: 400px;
+        }
+    }
+}

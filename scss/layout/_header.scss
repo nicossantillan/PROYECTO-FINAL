@@ -1,0 +1,45 @@
+header{
+    background: linear-gradient(180deg, rgba(0,0,0,0.8281687675070029) 20%, rgba(0,0,0,0.458420868347339) 69%, rgba(32,32,32,0) 100%);
+    @include flex (row, wrap, space-between, center, .0625rem);
+    padding-top: 2.875rem;
+    padding-left: 3.125rem;
+    padding-right: 5rem;
+    position: sticky;
+    position: relative;
+    z-index: 2;
+    top:0;
+    div{
+        a{
+            text-decoration: none;
+            h1{
+                font-family: 'Saira', sans-serif;
+                font-size: 2rem;
+                font-weight: 700;
+                color: white;
+            }
+        }
+    }
+    nav{
+        ul{
+            list-style: none;
+            font-family: 'Saira', sans-serif;
+            font-weight: 300;
+            @include flex (row, wrap, space-around, center, 9rem);
+            li{
+                a{
+                    text-decoration: none;
+                    font-size: 1rem;
+                    color: rgb(255, 255, 255);
+                    border-radius: 15px;
+                    padding: 8px 10px 8px 10px;
+                    &:hover{
+                        color: rgb(0, 0, 0);
+                        border-radius: 15px;
+                        padding: 8px 10px 8px 10px;
+                        background-color: rgba(255, 255, 255, 0.719);
+                    }
+                }
+            }
+        }
+    }
+}

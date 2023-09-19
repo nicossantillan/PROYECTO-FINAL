@@ -1,0 +1,10 @@
+@media screen and (max-width: 1140px){
+    header{
+        @include flex (column, wrap, center, center, 3rem);
+    }
+    footer{
+        section{
+            @include flex (row, wrap, center, center, 6rem);
+    }
+}
+}

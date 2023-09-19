@@ -1,0 +1,31 @@
+@media screen and (max-width: 725px) {
+    header{
+        nav{
+            ul{
+                @include flex (row, wrap, space-around, center, 3rem);}
+    }
+}
+.section1{
+    p{
+        width: 500px;
+    }
+}
+.section2{
+    height: auto;
+    padding-bottom: 70px;
+    div{
+        img{
+            width: 20rem;
+            height: auto;
+        }
+    }
+    .nosotros{
+        width: 31.25rem;
+        @include flex (column, wrap, center, center, 1.6rem);
+        h2{
+            font-size: 37px;
+            text-align: center;
+        }
+    }
+}
+}

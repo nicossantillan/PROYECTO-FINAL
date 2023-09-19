@@ -1,0 +1,909 @@
+/*primero llamamos a las variables y mixins*/
+/*despues lllamamos al reset*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/*MONTSERRAT FONT*/
+/*SAIRA FONT*/
+/*WORK SANS FONT*/
+/*layout*/
+header {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.8281687675) 20%, rgba(0, 0, 0, 0.4584208683) 69%, rgba(32, 32, 32, 0) 100%);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.0625rem;
+  padding-top: 2.875rem;
+  padding-left: 3.125rem;
+  padding-right: 5rem;
+  position: sticky;
+  position: relative;
+  z-index: 2;
+  top: 0;
+}
+header div a {
+  text-decoration: none;
+}
+header div a h1 {
+  font-family: "Saira", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: white;
+}
+header nav ul {
+  list-style: none;
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 9rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 8px 10px 8px 10px;
+}
+header nav ul li a:hover {
+  color: rgb(0, 0, 0);
+  border-radius: 15px;
+  padding: 8px 10px 8px 10px;
+  background-color: rgba(255, 255, 255, 0.719);
+}
+
+main .div-video {
+  height: 100%;
+  width: 100%;
+}
+main .div-video .video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+main .capa {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1c1c1d;
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
+.section1 {
+  height: 90vh;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.7rem;
+  padding-left: 70px;
+  color: white;
+}
+.section1 small {
+  font-family: "Saira", sans-serif;
+  color: rgba(255, 255, 255, 0.664);
+  font-weight: 400;
+}
+.section1 h2 {
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 40px;
+}
+.section1 h2 span {
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 60px;
+}
+.section1 p {
+  width: 600px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  text-align: start;
+}
+
+.section2 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.section2 div img {
+  width: 20rem;
+  height: auto;
+}
+.section2 .nosotros {
+  width: 43.75rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 1.6rem;
+}
+.section2 .nosotros small {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 1.3rem;
+  color: rgb(151, 76, 15);
+}
+.section2 .nosotros h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(26, 26, 26);
+  font-size: 35px;
+}
+.section2 .nosotros p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  color: rgb(26, 26, 26);
+  font-size: 16px;
+}
+
+.section3 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding-bottom: 70px;
+}
+.section3 div h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(151, 76, 15);
+}
+.section3 .especialidades {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+.section3 .especialidades article {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.section3 .especialidades article h3 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(151, 76, 15);
+}
+.section3 .especialidades article p {
+  width: 460px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(26, 26, 26);
+  font-size: 16px;
+}
+.section3 .especialidades figure {
+  display: grid;
+  border-radius: 1rem;
+  overflow: hidden;
+  cursor: pointer;
+}
+.section3 .especialidades figure img {
+  height: 18.75rem;
+  width: 15.625rem;
+}
+.section3 .especialidades figure figcaption {
+  display: grid;
+  align-items: end;
+  font-family: sans-serif;
+  font-size: 2.3rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0);
+  padding: 0.75rem;
+  background: var(--c, rgba(0, 0, 0, 0.6));
+  clip-path: inset(0 var(--_i, 100%) 0 0);
+  -webkit-mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  mask: linear-gradient(#000 0 0), linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: xor;
+  -webkit-mask-clip: text, padding-box;
+  mask-clip: text, padding-box;
+  margin: -1px;
+}
+
+figure > * {
+  grid-area: 1/1;
+  transition: 0.4s;
+}
+
+figure:hover figcaption {
+  --_i: 0%;
+}
+
+figure:hover img {
+  transform: scale(1.2);
+}
+
+@supports not (-webkit-mask-clip: text) {
+  figure figcaption {
+    -webkit-mask: none;
+    mask: none;
+    color: #fff;
+  }
+}
+.section4 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: rgb(71, 43, 0);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+.section4 section {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 15rem;
+}
+.section4 section div img {
+  height: 700px;
+  width: 700px;
+  object-fit: cover;
+  border-radius: 1.25rem;
+}
+
+.lista-servicios {
+  width: 50vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.lista-servicios h2 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: rgb(255, 131, 30);
+}
+.lista-servicios ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.lista-servicios ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+
+footer {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  padding-top: 7rem;
+  background-image: url(../assets/img/footer.jpg);
+}
+footer section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+footer section .footer1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+footer section .footer1 span {
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+}
+footer section .footer1 nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer section .footer1 nav ul li {
+  list-style: none;
+}
+footer section .footer1 nav ul li a {
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+footer section .social-media ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer section .social-media ul li {
+  list-style: none;
+}
+footer section .social-media ul li a img {
+  height: 50px;
+  width: auto;
+}
+footer section .footer2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer section .footer2 h2 {
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+}
+footer section .footer2 p {
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+}
+footer section .footer2 p a {
+  color: rgb(255, 233, 192);
+  text-decoration: none;
+}
+footer section .footer3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer section .footer3 h2 {
+  font-family: "Saira", sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 30px;
+}
+footer section .footer3 div input {
+  border: none;
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+footer div p {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+}
+footer div p span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(247, 170, 3);
+  font-size: 18px;
+}
+
+/*components*/
+.button {
+  border-radius: 0.75rem;
+  border: none;
+  background-color: rgba(253, 114, 0, 0.623);
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: azure;
+  text-align: center;
+}
+.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(199, 81, 2);
+  padding: 0.5rem 1.2rem 0.5rem 1.2rem;
+  border-radius: 0.75rem;
+  border: none;
+}
+.button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+/*mediaquery*/
+@media screen and (max-width: 1140px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  footer section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+}
+@media screen and (max-width: 1390px) {
+  .section4 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: rgb(71, 43, 0);
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .section4 section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  .section4 section div img {
+    height: 700px;
+    width: 700px;
+    object-fit: cover;
+  }
+  .lista-servicios {
+    width: 50vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .lista-servicios h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(255, 131, 30);
+  }
+  .lista-servicios ul {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .lista-servicios ul li {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: center;
+  }
+}
+.section4 .mediaquery {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 6rem;
+}
+
+@media screen and (max-width: 1011px) {
+  footer {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+  footer section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  footer section .footer1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+@media screen and (max-width: 915px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5rem;
+  }
+  .section4 section div img {
+    height: 500px;
+    width: 500px;
+  }
+}
+@media screen and (max-width: 725px) {
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3rem;
+  }
+  .section1 p {
+    width: 500px;
+  }
+  .section2 {
+    height: auto;
+    padding-bottom: 70px;
+  }
+  .section2 div img {
+    width: 20rem;
+    height: auto;
+  }
+  .section2 .nosotros {
+    width: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .section2 .nosotros h2 {
+    font-size: 37px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 615px) {
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section1 p {
+    width: 400px;
+  }
+  .section4 section div img {
+    height: 400px;
+    width: 400px;
+  }
+  footer div {
+    width: 400px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 615px) {
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+  header nav ul li a {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .section1 {
+    padding-left: 40px;
+  }
+  .section1 h2 {
+    font-size: 30px;
+  }
+  .section1 h2 span {
+    font-size: 50px;
+  }
+  .section1 p {
+    font-size: 14px;
+  }
+  .section2 {
+    padding-bottom: 90px;
+  }
+  .section2 div img {
+    width: 17rem;
+    height: auto;
+  }
+  .section2 .nosotros {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .button {
+    padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+  }
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.7rem;
+  }
+  header nav ul li a {
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+  .section1 p {
+    width: 300px;
+  }
+  .section3 {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    padding-bottom: 70px;
+  }
+  .section3 div h2 {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(151, 76, 15);
+  }
+  .section3 .especialidades article p {
+    width: 350px;
+  }
+  .lista-servicios {
+    width: 50%;
+  }
+  .lista-servicios h2 {
+    text-align: center;
+  }
+  .section4 section div img {
+    height: 300px;
+    width: 300px;
+  }
+}
+@media screen and (max-width: 415px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+  header nav ul {
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section1 {
+    padding-left: 30px;
+    margin-top: -60px;
+  }
+  .section1 h2 {
+    width: 370px;
+    font-weight: 500;
+    font-size: 40px;
+  }
+  .section1 p {
+    width: 370px;
+  }
+  .section2 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section2 div img {
+    width: 17rem;
+    height: auto;
+  }
+  .section2 .nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .section2 .nosotros h2 {
+    width: 350px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .section2 .nosotros p {
+    width: 350px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .section3 div h2 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 375px) {
+  header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .section1 h2 {
+    width: 100%;
+  }
+  .section1 p {
+    width: 80%;
+  }
+  .section2 .nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+  }
+  .section2 .nosotros h2 {
+    width: 90%;
+  }
+  .section2 .nosotros p {
+    width: 80%;
+  }
+  .section2 {
+    padding-bottom: 90px;
+  }
+  .section2 div img {
+    width: 14rem;
+    height: auto;
+  }
+  .section3 .especialidades {
+    width: 300px;
+  }
+  .section3 .especialidades article p {
+    width: 300px;
+  }
+  footer {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5rem;
+  }
+  footer section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+  footer section .footer1 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  footer div {
+    width: 300px;
+  }
+  footer div p {
+    width: 300px;
+  }
+  footer section .footer2 {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

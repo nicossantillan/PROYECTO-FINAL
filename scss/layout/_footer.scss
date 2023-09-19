@@ -1,0 +1,104 @@
+footer{
+    width: 100%;
+    height: 500px;
+    @include flex (column, wrap, space-between, center, 2rem);
+    padding-bottom: 2rem;
+    padding-top: 7rem;
+    background-image: url(../assets/img/footer.jpg);
+    section{
+        @include flex (row, wrap, center, center, 10rem);
+    .footer1{
+        @include flex (column, wrap, center, center, 2rem);
+        span{
+            font-family: 'Saira', sans-serif;
+            font-weight: 700;
+            color:white;
+            font-size: 30px;
+        }
+        nav{
+            ul{
+                @include flex (row, wrap, center, center, 1rem);
+                li{
+                    list-style: none;
+                    a{
+                        font-family: 'Saira', sans-serif;
+                        font-weight: 300;
+                        text-decoration: none;
+                        font-size: 1rem;
+                        color: rgb(255, 255, 255);
+                    }
+                }
+            }
+        }
+    }
+    .social-media{
+        ul{
+            @include flex (row, wrap, center, center, 1rem);
+            li{
+                list-style: none;
+                a{
+                    img{
+                        height: 50px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    }
+    .footer2{
+        @include flex (column, wrap, center, center, 1rem);
+        h2{
+            font-family: 'Saira', sans-serif;
+            font-weight: 700;
+            color:white;
+            font-size: 30px;
+        } 
+        p{
+            font-family: 'Saira', sans-serif;
+            font-weight: 300;
+            text-decoration: none;
+            font-size: 1rem;
+            color: rgb(255, 255, 255);
+            a{
+                color: rgb(255, 233, 192);
+                text-decoration:none;
+            }
+        }
+    }
+    .footer3{
+        @include flex (column, wrap, center, center, 1rem);
+        h2{
+            font-family: 'Saira', sans-serif;
+            font-weight: 700;
+            color:white;
+            font-size: 30px;
+        } 
+        div{
+            input{
+                border:none;
+                height: 40px;
+                width: 300px;
+                border-radius:20px;
+                background-color: rgb(255, 255, 255);
+                text-align: center;
+                font-family:'Work Sans', sans-serif;
+            }
+        }
+
+    }
+}
+div{
+    p{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 500;
+            color:rgb(255, 255, 255);
+            font-size: 16px;
+        span{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            color:rgb(247, 170, 3);
+            font-size: 18px;
+        }
+    }
+}
+}

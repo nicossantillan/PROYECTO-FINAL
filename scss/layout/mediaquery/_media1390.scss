@@ -1,0 +1,45 @@
+@media screen and (max-width: 1390px){
+    .section4{
+        width: 100%;
+        height: auto;
+        @include flex (column, wrap, center, center, 5rem);
+        background-color:rgb(71, 43, 0) ;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+        section{
+            width: 100%;
+            height: auto;
+            @include flex (column-reverse, wrap, center, center, 6rem);
+            div{
+                img{
+                    height: 700px;
+                    width: 700px;
+                    object-fit: cover;
+                }
+            }
+            }
+        }
+        .lista-servicios{
+            width:50vh;
+                        @include flex (column, wrap, center, center, 2rem);
+            h2{
+                font-family: 'Work Sans', sans-serif;
+                font-weight: 600;
+                font-size: 2rem;
+                color: rgb(255, 131, 30);
+            }
+            ul{
+                @include flex (column, wrap, center, center, 2rem);
+                li{
+                    font-family: 'Montserrat', sans-serif;
+                    font-weight: 400;
+                    color:rgb(255, 255, 255);
+                    font-size: 16px;
+                    text-align: center;
+                }
+            }
+        }
+}
+.section4 .mediaquery{
+    @include flex (column, wrap, center, center, 6rem);
+}

@@ -1,0 +1,59 @@
+@media screen and (max-width: 415px) {
+    header{
+        @include flex (column, wrap, center, center, 2rem);
+        padding-left: 0rem;
+        padding-right: 0rem;
+        nav{
+            ul{
+                font-weight: 400;
+                @include flex (row, wrap, center, center, 1rem);
+            }
+        }
+    }
+
+    .section1{
+        padding-left: 30px;
+        margin-top: -60px;
+        h2{
+            width: 370px;
+            font-weight: 500;
+            font-size: 40px;
+        }
+        p{
+            width: 370px;
+        }
+    }
+
+    .section2{
+        height: 100vh;
+        width: 100%;
+        @include flex (column, wrap, center, center, 1rem);
+        div{
+            img{
+                width: 17rem;
+                height: auto;
+            }
+        }
+        .nosotros{
+            width: 100%;
+            @include flex (column, wrap, center, center, 1rem);
+            h2{
+                width: 350px;
+                font-size: 30px;
+                text-align: center;
+            }
+            p{
+                width: 350px;
+                font-size: 14px;
+                text-align: justify;
+            }
+        }
+    }
+    .section3{
+        div{
+            h2{
+                text-align: center;
+            }
+        }
+    }
+}

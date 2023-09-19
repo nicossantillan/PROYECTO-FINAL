@@ -1,0 +1,60 @@
+@media screen and (max-width: 500px){
+    .button{
+        padding: .3rem .8rem .3rem .8rem;
+    }
+    header{
+        nav{
+            ul{
+                @include flex (row, wrap, space-around, center, .7rem);
+                li{
+                    a{
+                        font-size: .875rem;
+                        font-weight: 500;
+                    }
+                }
+            }
+    }
+}
+.section1{
+    p{
+        width: 300px;
+    }
+}
+.section3{
+    height: auto;
+    width: 100%;
+    @include flex (column, wrap, center, center, 5rem);
+    padding-bottom:70px;
+    div{
+        h2{
+            font-family: 'Work Sans', sans-serif;
+            font-weight: 600;
+            font-size: 2rem;
+            color: rgb(151, 76, 15);
+        }
+    }
+    .especialidades{
+        article{
+            p{
+                width: 350px;
+            }
+        }
+}
+}
+.lista-servicios{
+    width:50%;
+    h2{
+        text-align: center;
+    }
+}
+.section4{
+    section{
+        div{
+            img{
+                height: 300px;
+                width: 300px;
+            }
+        }
+        }
+    }
+}

@@ -1,0 +1,29 @@
+/*primero llamamos a las variables y mixins*/
+@import "./utilities/funcion";
+@import "./utilities/mixins";
+
+/*despues lllamamos al reset*/
+@import "./base/reset";
+@import "./base/fonts";
+
+/*layout*/
+@import"./layout/header";
+@import"./layout/main-index";
+@import"./layout/footer";
+
+/*components*/
+@import"./components/bootstrap";
+@import"./components/botones";
+
+/*mediaquery*/
+@import "./layout/mediaquery/media1140";
+@import "./layout/mediaquery/media1390";
+@import "./layout/mediaquery/media1285";
+@import "./layout/mediaquery/media1011";
+@import "./layout/mediaquery/media915";
+@import "./layout/mediaquery/media725";
+@import "./layout/mediaquery/media615";
+@import "./layout/mediaquery/media580";
+@import "./layout/mediaquery/media500";
+@import "./layout/mediaquery/media415";
+@import "./layout/mediaquery/media375";

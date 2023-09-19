@@ -1,0 +1,19 @@
+@media screen and (max-width: 915px){
+    header{
+        @include flex (column, wrap, center, center, 3rem);
+        nav{
+            ul{
+                @include flex (row, wrap, space-around, center, 5rem);}
+    }
+}
+.section4{
+    section{
+        div{
+            img{
+                height: 500px;
+                width: 500px;
+            }
+        }
+        }
+    }
+}
