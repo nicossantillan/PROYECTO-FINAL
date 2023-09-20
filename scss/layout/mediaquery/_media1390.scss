@@ -1,4 +1,4 @@
-@media screen and (max-width: 1390px){
+@media (max-width: 1390px){
     .section4{
         width: 100%;
         height: auto;
@@ -39,7 +39,7 @@
                 }
             }
         }
-}
-.section4 .mediaquery{
-    @include flex (column, wrap, center, center, 6rem);
+        .section4 .mediaquery{
+            @include flex (column, wrap, center, center, 6rem);
+        }
 }

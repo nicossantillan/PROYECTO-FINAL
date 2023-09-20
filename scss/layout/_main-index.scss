@@ -173,6 +173,14 @@ figure:hover img {
     color: #fff;
     }
 }
+.section4 .mediaquery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
 .section4{
     width: 100%;
     height: auto;
@@ -182,12 +190,12 @@ figure:hover img {
     padding-bottom: 5rem;
     section{
         width: 100%;
-        height: 80vh;
+        height: auto;
         @include flex (row, wrap, center, center, 15rem);
         div{
             img{
-                height: 700px;
-                width: 700px;
+                height: 43.75rem;
+                width: 43.75rem;
                 object-fit: cover;
                 border-radius: 1.25rem;
             }
