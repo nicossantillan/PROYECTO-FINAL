@@ -1,5 +1,6 @@
 @media screen and (max-width: 375px) {
     header{
+        z-index: 3;
         width: 100%;
         nav{
             ul{
@@ -74,8 +75,12 @@
         
         /*--------------------------------------------------*/
         .nosotros-section1{
+            height: 80vh;
             p{
                 width: 200px;
+            }
+            h2{
+                font-size: 30px;
             }
         }
         .nosotros-section2{
@@ -85,5 +90,8 @@
             h2{
                 text-align: center;
             }
+        }
+        .nosotros-background-image{
+            height: 100vh;
         }
 }

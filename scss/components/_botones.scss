@@ -62,9 +62,9 @@
   }
   
   .ag-courses-item_link:hover .ag-courses-item_bg {
-    -webkit-transform: scale(10);
-    -ms-transform: scale(10);
-    transform: scale(10);
+    -webkit-transform: scale(6);
+    -ms-transform: scale(6);
+    transform: scale(6);
   }
   .ag-courses-item_link:hover .ag-courses-item_bg1 {
     -webkit-transform: scale(10);
@@ -91,9 +91,10 @@
   
   .ag-courses-item_date-box {
     font-size: 18px;
-    color: #FFF;
+    color: #d4d4d4;
     text-align: center;
     font-family: "Work Sans", sans-serif;
+    font-weight: 600;
     z-index: 2;
     position: relative;
   }
@@ -147,7 +148,7 @@
     height: 128px;
     width: 128px;
     background-color: #ff7b00;
-    background-image: url(https://images.unsplash.com/photo-1578678809532-6f0cbc85c59a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+    background-image: url(https://images.pexels.com/photos/8844163/pexels-photo-8844163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

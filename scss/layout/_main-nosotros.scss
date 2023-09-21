@@ -37,7 +37,23 @@
 .nosotros-section2{
     width: 100%;
     @include flex (column, wrap, center, center, 2rem);
-    padding-top: 50px;
+    padding-top: 100px;
+    h2{
+        text-align: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        color:rgb(151, 76, 15);
+        font-size: 30px;
+    }
+    section{
+        @include flex (row, wrap, center, center, 4rem);
+
+    }
+}
+.nosotros-section3{
+    width: 100%;
+    height: auto;
+    @include flex (column, wrap, center, center, 4rem);
     h2{
         text-align: start;
         font-family: 'Montserrat', sans-serif;
@@ -47,6 +63,34 @@
     }
     section{
         @include flex (row, wrap, center, center, 4rem);
-
+        article{
+            border: 1px solid rgb(255, 221, 176);
+            border-radius: 20px;
+            padding: 40px 30px;
+            @include flex (column, wrap, center, center, 2.5rem);
+            div{
+                img{
+                    border-radius: 1.25rem;
+                    height: 15.625rem;
+                    width: 15.625rem;
+                    object-fit: cover;                
+                }
+            }
+            div{
+                @include flex (column, wrap, center, center, 1rem);
+                width: 400px;
+                text-align: center;
+                font-family: 'Work Sans', sans-serif;
+                small{
+                    font-weight: 600;
+                }
+                span{
+                    font-weight: 700;
+                    font-family: 'Saira', sans-serif;
+                    color: rgb(228, 102, 0);
+                    font-size: 20px;
+                }
+            }
+        }
     }
 }

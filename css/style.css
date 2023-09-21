@@ -384,10 +384,10 @@ figure:hover img {
   justify-content: center;
   align-items: center;
   gap: 2rem;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .nosotros-section2 h2 {
-  text-align: start;
+  text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   color: rgb(151, 76, 15);
@@ -400,6 +400,69 @@ figure:hover img {
   justify-content: center;
   align-items: center;
   gap: 4rem;
+}
+
+.nosotros-section3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.nosotros-section3 h2 {
+  text-align: start;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgb(151, 76, 15);
+  font-size: 30px;
+}
+.nosotros-section3 section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.nosotros-section3 section article {
+  border: 1px solid rgb(255, 221, 176);
+  border-radius: 20px;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+}
+.nosotros-section3 section article div img {
+  border-radius: 1.25rem;
+  height: 15.625rem;
+  width: 15.625rem;
+  object-fit: cover;
+}
+.nosotros-section3 section article div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 400px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+.nosotros-section3 section article div small {
+  font-weight: 600;
+}
+.nosotros-section3 section article div span {
+  font-weight: 700;
+  font-family: "Saira", sans-serif;
+  color: rgb(228, 102, 0);
+  font-size: 20px;
 }
 
 footer {
@@ -596,9 +659,9 @@ footer div p span {
 }
 
 .ag-courses-item_link:hover .ag-courses-item_bg {
-  -webkit-transform: scale(10);
-  -ms-transform: scale(10);
-  transform: scale(10);
+  -webkit-transform: scale(6);
+  -ms-transform: scale(6);
+  transform: scale(6);
 }
 
 .ag-courses-item_link:hover .ag-courses-item_bg1 {
@@ -628,9 +691,10 @@ footer div p span {
 
 .ag-courses-item_date-box {
   font-size: 18px;
-  color: #FFF;
+  color: #d4d4d4;
   text-align: center;
   font-family: "Work Sans", sans-serif;
+  font-weight: 600;
   z-index: 2;
   position: relative;
 }
@@ -684,7 +748,7 @@ footer div p span {
   height: 128px;
   width: 128px;
   background-color: #ff7b00;
-  background-image: url(https://images.unsplash.com/photo-1578678809532-6f0cbc85c59a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80);
+  background-image: url(https://images.pexels.com/photos/8844163/pexels-photo-8844163.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -845,6 +909,16 @@ footer div p span {
     height: 500px;
     width: 500px;
   }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 {
+    height: 80vh;
+    margin-bottom: 50px;
+  }
+  .nosotros-background-image {
+    height: 100vh;
+  }
 }
 @media screen and (max-width: 725px) {
   header nav ul {
@@ -883,7 +957,7 @@ footer div p span {
   /*-------------------NOSOTROS-----------------------*/
   /*--------------------------------------------------*/
   .nosotros-section1 {
-    height: 40vh;
+    height: 70vh;
   }
   .nosotros-section1 p {
     width: 400px;
@@ -1077,9 +1151,17 @@ footer div p span {
   .section3 div h2 {
     text-align: center;
   }
+  .nosotros-section1 h2 {
+    font-size: 35px;
+  }
+  .nosotros-section1 p {
+    width: 250px;
+    font-size: 14px;
+  }
 }
 @media screen and (max-width: 375px) {
   header {
+    z-index: 3;
     width: 100%;
   }
   header nav ul {
@@ -1163,14 +1245,23 @@ footer div p span {
   /*--------------------------------------------------*/
   /*-------------------NOSOTROS-----------------------*/
   /*--------------------------------------------------*/
+  .nosotros-section1 {
+    height: 80vh;
+  }
   .nosotros-section1 p {
     width: 200px;
+  }
+  .nosotros-section1 h2 {
+    font-size: 30px;
   }
   .nosotros-section2 section {
     width: 100%;
   }
   .nosotros-section2 h2 {
     text-align: center;
+  }
+  .nosotros-background-image {
+    height: 100vh;
   }
 }
 
