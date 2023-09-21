@@ -1,13 +1,35 @@
 /*primero llamamos a las variables y mixins*/
-/*despues lllamamos al reset*/
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Saira:wght@300;400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+/*despues lllamamos al reset*/
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+}
+
+::selection {
+  background: rgb(255, 153, 0);
+}
+
+img {
+  view-timeline-name: --revealing-image;
+  animation-name: show;
+  animation-fill-mode: both;
+  animation-timeline: --revaling-image;
+  animation-range: entry 25% cover 50%;
 }
 
 /*MONTSERRAT FONT*/
@@ -38,6 +60,12 @@ header div a h1 {
   font-size: 2rem;
   font-weight: 700;
   color: white;
+  scale: 1;
+  transition: ease 0.3s;
+}
+header div a h1:hover {
+  transition: ease 0.3s;
+  scale: 1.2;
 }
 header nav ul {
   list-style: none;
@@ -56,8 +84,10 @@ header nav ul li a {
   color: rgb(255, 255, 255);
   border-radius: 15px;
   padding: 8px 10px 8px 10px;
+  transition: ease 0.4s;
 }
 header nav ul li a:hover {
+  transition: ease 0.3s;
   color: rgb(0, 0, 0);
   border-radius: 15px;
   padding: 8px 10px 8px 10px;
@@ -465,6 +495,26 @@ figure:hover img {
   font-size: 20px;
 }
 
+.nosotros-section4 {
+  margin: 50px 0px 0px 0px;
+  height: 170px;
+  width: 100%;
+  background-color: rgba(255, 180, 118, 0.753);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+}
+.nosotros-section4 h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: rgb(219, 99, 0);
+  font-size: 30px;
+}
+
 footer {
   width: 100%;
   height: 500px;
@@ -614,6 +664,32 @@ footer div p span {
   border: none;
 }
 .button a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.button2 {
+  border-radius: 0.75rem;
+  border: none;
+  background-color: rgba(253, 114, 0, 0.623);
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: azure;
+  text-align: center;
+  transition: ease 0.2s;
+}
+.button2:hover {
+  transition: ease 0.2s;
+  scale: 1.2;
+  color: rgb(255, 255, 255);
+  background-color: rgb(112, 45, 0);
+  padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+  border-radius: 0.75rem;
+  border: none;
+}
+.button2 a {
   text-decoration: none;
   color: aliceblue;
 }
@@ -919,6 +995,14 @@ footer div p span {
   .nosotros-background-image {
     height: 100vh;
   }
+  .nosotros-section4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
 }
 @media screen and (max-width: 725px) {
   header nav ul {
@@ -982,6 +1066,17 @@ footer div p span {
   footer div {
     width: 400px;
     text-align: center;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section4 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 615px) {
@@ -1081,6 +1176,19 @@ footer div p span {
   .nosotros-section2 h2 {
     font-size: 25px;
   }
+  .nosotros-section3 section article {
+    padding: 40px 10px;
+  }
+  .nosotros-section3 section article div img {
+    height: 13rem;
+    width: 13rem;
+  }
+  .nosotros-section3 section article div {
+    width: 250px;
+  }
+  .nosotros-section4 h2 {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 415px) {
   header {
@@ -1101,6 +1209,9 @@ footer div p span {
     justify-content: center;
     align-items: center;
     gap: 1rem;
+  }
+  footer section {
+    width: 100%;
   }
   .section1 {
     padding-left: 30px;

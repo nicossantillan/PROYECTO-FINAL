@@ -1,6 +1,7 @@
 /*primero llamamos a las variables y mixins*/
 @import "./utilities/funcion";
 @import "./utilities/mixins";
+@import "./components/keyframes";
 
 /*despues lllamamos al reset*/
 @import "./base/reset";

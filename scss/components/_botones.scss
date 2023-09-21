@@ -20,6 +20,32 @@
         color: aliceblue;
     }
 }
+.button2{
+  border-radius: .75rem;
+  border:none;
+  background-color: rgba(253, 114, 0, 0.623);
+  padding: .8rem 1.2rem .8rem 1.2rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  color: azure;
+  text-align: center;
+  transition: ease 0.2s;
+  &:hover{
+      transition: ease 0.2s;
+      scale:1.2;
+      color: rgb(255, 255, 255);
+      background-color: rgb(112, 45, 0);
+      padding: .8rem 1.2rem .8rem 1.2rem;
+      border-radius: .75rem;
+      border:none;
+  }
+  a{
+      text-decoration: none;
+      color: aliceblue;
+  }
+}
+
 
 .ag-format-container {
     width: 360px;
