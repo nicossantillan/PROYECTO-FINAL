@@ -42,4 +42,13 @@
         .section4 .mediaquery{
             @include flex (column, wrap, center, center, 6rem);
         }
+
+        /*--------------------------------------------------*/
+        
+        /*-------------------NOSOTROS-----------------------*/
+        
+        /*--------------------------------------------------*/
+        .nosotros-section1{
+            margin-bottom:100px;
+        }
 }

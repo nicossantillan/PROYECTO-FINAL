@@ -1,4 +1,4 @@
-@media screen and (max-width: 1140px){
+@media (max-width: 1140px){
     header{
         @include flex (column, wrap, center, center, 3rem);
     }
@@ -6,5 +6,14 @@
         section{
             @include flex (row, wrap, center, center, 6rem);
     }
+}
+
+        /*--------------------------------------------------*/
+        
+        /*-------------------NOSOTROS-----------------------*/
+        
+        /*--------------------------------------------------*/
+.nosotros-section1{
+    margin-bottom:50px;
 }
 }

@@ -1,5 +1,6 @@
 @media screen and (max-width: 375px) {
     header{
+        width: 100%;
         nav{
             ul{
                 @include flex (row, wrap, center, center, .5rem);
@@ -66,4 +67,23 @@
     footer section .footer2{
         width: 100%;
     }
+    
+        /*--------------------------------------------------*/
+        
+        /*-------------------NOSOTROS-----------------------*/
+        
+        /*--------------------------------------------------*/
+        .nosotros-section1{
+            p{
+                width: 200px;
+            }
+        }
+        .nosotros-section2{
+            section{
+                width: 100%;
+            }
+            h2{
+                text-align: center;
+            }
+        }
 }

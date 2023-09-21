@@ -699,24 +699,6 @@ footer div p span {
 }
 
 /*mediaquery*/
-@media screen and (max-width: 1140px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-  }
-  footer section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 6rem;
-  }
-}
 @media (max-width: 1390px) {
   .section4 {
     width: 100%;
@@ -783,6 +765,36 @@ footer div p span {
     justify-content: center;
     align-items: center;
     gap: 6rem;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 {
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 1140px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+  footer section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 {
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 1011px) {
@@ -866,6 +878,15 @@ footer div p span {
   .section2 .nosotros h2 {
     font-size: 37px;
     text-align: center;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 {
+    height: 40vh;
+  }
+  .nosotros-section1 p {
+    width: 400px;
   }
 }
 @media screen and (max-width: 615px) {
@@ -974,6 +995,18 @@ footer div p span {
     height: 300px;
     width: 300px;
   }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 h2 {
+    font-size: 40px;
+  }
+  .nosotros-section1 p {
+    font-size: 14px;
+  }
+  .nosotros-section2 h2 {
+    font-size: 25px;
+  }
 }
 @media screen and (max-width: 415px) {
   header {
@@ -1046,6 +1079,9 @@ footer div p span {
   }
 }
 @media screen and (max-width: 375px) {
+  header {
+    width: 100%;
+  }
   header nav ul {
     display: flex;
     flex-direction: row;
@@ -1123,6 +1159,18 @@ footer div p span {
   }
   footer section .footer2 {
     width: 100%;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------NOSOTROS-----------------------*/
+  /*--------------------------------------------------*/
+  .nosotros-section1 p {
+    width: 200px;
+  }
+  .nosotros-section2 section {
+    width: 100%;
+  }
+  .nosotros-section2 h2 {
+    text-align: center;
   }
 }
 
