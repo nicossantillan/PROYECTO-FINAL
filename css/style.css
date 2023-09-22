@@ -742,6 +742,16 @@ figure:hover img {
 }
 
 /*FINAL ANIMACIONES*/
+.servicios {
+  background-image: url(../assets/img/servicios.jpg);
+}
+
+.section1 .small-servicios {
+  color: rgb(189, 115, 5);
+  font-size: 17px;
+  font-weight: 700;
+}
+
 footer {
   width: 100%;
   height: 500px;
@@ -1291,6 +1301,20 @@ footer div p span {
   .nosotros-section1 p {
     width: 400px;
   }
+  /*--------------------------------------------------*/
+  /*-------------------sucursal-----------------------*/
+  /*--------------------------------------------------*/
+  .grid-container-sucursal {
+    width: 100%;
+    height: 100vh;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 33%);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+  }
 }
 @media screen and (max-width: 615px) {
   header nav ul {
@@ -1442,6 +1466,20 @@ footer div p span {
   }
   .nosotros-section4 h2 {
     font-size: 25px;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------sucursal-----------------------*/
+  /*--------------------------------------------------*/
+  .grid-container-sucursal {
+    width: 100%;
+    height: auto;
+    padding: 50px 50px;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(6, 260px);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
   }
 }
 @media screen and (max-width: 415px) {

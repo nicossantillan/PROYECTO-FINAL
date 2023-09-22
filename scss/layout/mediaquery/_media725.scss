@@ -39,4 +39,23 @@
         width: 400px;
     }
 }
+                /*--------------------------------------------------*/
+        
+        /*-------------------sucursal-----------------------*/
+        
+        /*--------------------------------------------------*/
+        .grid-container-sucursal{
+            width: 100%;
+            height: 100vh;
+            padding: 50px 50px;
+            display: grid;
+            grid-template-columns: repeat(2, 50%);
+            grid-template-rows: repeat(3, 33%);
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+            grid-template-areas: 
+            "item1 item2"
+            "item3 item4"
+            "item5 item6";
+        }
 }
