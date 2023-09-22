@@ -28,7 +28,16 @@
         .nosotros-background-image{
             height: 100vh;
         }
+        
         .nosotros-section4{
             @include flex (row, wrap, center, center, 3rem);
+        }
+                /*--------------------------------------------------*/
+        
+        /*-------------------sucursal-----------------------*/
+        
+        /*--------------------------------------------------*/
+        .sucursal-background-image{
+            height: 100vh;
         }
 }

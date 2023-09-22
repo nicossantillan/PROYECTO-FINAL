@@ -35,4 +35,15 @@
     .nosotros-section4{
         @include flex (row, wrap, center, center, 1rem);
     }
+                    /*--------------------------------------------------*/
+        
+        /*-------------------sucursal-----------------------*/
+        
+        /*--------------------------------------------------*/
+    .sucursal-section2{
+        text-align: center;
+        p{
+            width: 60%;
+        }
+    }
 }
