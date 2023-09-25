@@ -119,4 +119,47 @@
             "item5"
             "item6";
         }
+                        /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+.servicios-media1{
+            height: 75vh;
+        }
+        .servicios-section2{
+            section{
+                @include flex (column,wrap, center, flex-end, 1rem);
+                padding-left: 1rem;
+                height: 28rem;
+                div{
+                    width: 45%;
+                    height: 60%;
+                    p{
+                        font-size: .875rem;
+                    }
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+            .servicio-granos{
+                @include flex (column, wrap, center, flex-start, 1rem);
+                padding-right: 1rem;
+                div{
+                    width: 45%;
+                    height: 60%;
+                    p{
+                        font-size: .875rem;
+                    }
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+        }
+
 }

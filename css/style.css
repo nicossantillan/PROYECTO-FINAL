@@ -746,10 +746,234 @@ figure:hover img {
   background-image: url(../assets/img/servicios.jpg);
 }
 
+main .div-servicios {
+  height: 100%;
+  width: 100%;
+}
+main .div-servicios .img-servicios {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 .section1 .small-servicios {
   color: rgb(189, 115, 5);
   font-size: 17px;
   font-weight: 700;
+}
+
+.servicios-section2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  height: auto;
+  background-color: rgb(255, 255, 255);
+}
+.servicios-section2 section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 4rem;
+  padding-left: 4rem;
+  width: 100%;
+  height: 35rem;
+  background-color: rgb(170, 94, 0);
+}
+.servicios-section2 section div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+  padding-left: 2rem;
+  height: 40%;
+  width: 33%;
+  background-color: rgb(73, 39, 0);
+  color: white;
+}
+.servicios-section2 section div h2 {
+  font-size: 2rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 500;
+  text-align: start;
+}
+.servicios-section2 section div p {
+  font-size: 1rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+  text-align: start;
+}
+.servicios-section2 section .servicio-cards-img {
+  width: 61%;
+  height: 100%;
+  padding-left: 0rem;
+}
+.servicios-section2 section .servicio-cards-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.servicios-section2 .servicio-granos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 4rem;
+  padding-left: 0rem;
+  padding-right: 4rem;
+  width: 100%;
+}
+.servicios-section2 .servicio-granos div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+  padding-right: 2rem;
+  height: 40%;
+  width: 33%;
+  background-color: rgb(73, 39, 0);
+  color: white;
+}
+.servicios-section2 .servicio-granos div h2 {
+  font-size: 2rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 500;
+  text-align: end;
+}
+.servicios-section2 .servicio-granos div p {
+  font-size: 1rem;
+  font-family: "Saira", sans-serif;
+  font-weight: 300;
+  text-align: end;
+}
+.servicios-section2 .servicio-granos .servicio-cards-img {
+  width: 61%;
+  height: 100%;
+  padding-right: 0rem;
+}
+
+.contacto {
+  background-image: url(../assets/img/contacto.jpg);
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+
+.flex-main-contacto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+}
+
+.iconos-contacto {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10%;
+  z-index: 2;
+  width: 100%;
+  margin-top: 4.375rem;
+  margin-bottom: 3.75rem;
+}
+.iconos-contacto div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.iconos-contacto div p {
+  font-family: "Saira", sans-serif;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  width: 130px;
+  text-align: center;
+}
+.iconos-contacto div p span {
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.iconos-contacto div img {
+  height: 60px;
+  width: auto;
+}
+
+.formulario {
+  width: 80%;
+  border-radius: 20px;
+  background-color: rgba(71, 38, 0, 0.6588235294);
+  padding: 20px;
+  font-family: "Saira", sans-serif;
+  color: white;
+  z-index: 2;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 2rem;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+#fname {
+  height: 20px;
+  font-family: "Saira", sans-serif;
+}
+
+#lname {
+  height: 20px;
+  font-family: "Saira", sans-serif;
+}
+
+#country {
+  font-family: "Saira", sans-serif;
+  font-weight: 500;
+  padding: 20px;
+}
+
+#subject {
+  font-family: "Saira", sans-serif;
+  height: 150px;
+}
+
+select {
+  background-image: url(../assets/img/flecha.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+}
+
+.footer-contacto {
+  position: absolute;
+  z-index: 8;
+  margin-top: 50px;
 }
 
 footer {
@@ -916,6 +1140,7 @@ footer div p span {
   color: azure;
   text-align: center;
   transition: ease 0.2s;
+  cursor: pointer;
 }
 .button2:hover {
   transition: ease 0.2s;
@@ -925,6 +1150,7 @@ footer div p span {
   padding: 0.8rem 1.2rem 0.8rem 1.2rem;
   border-radius: 0.75rem;
   border: none;
+  cursor: pointer;
 }
 .button2 a {
   text-decoration: none;
@@ -1173,6 +1399,20 @@ footer div p span {
   .nosotros-section1 {
     margin-bottom: 50px;
   }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-section2 section {
+    height: 30rem;
+  }
+  .servicios-section2 section .servicio-cards-img {
+    width: 59%;
+    height: 100%;
+  }
+  .servicios-section2 .servicio-granos .servicio-cards-img {
+    width: 59%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 1011px) {
   footer {
@@ -1258,6 +1498,32 @@ footer div p span {
   .sucursal-background-image {
     height: 100vh;
   }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-section2 section {
+    padding-left: 2rem;
+    height: 28rem;
+  }
+  .servicios-section2 section div {
+    width: 41%;
+    height: 50%;
+  }
+  .servicios-section2 section .servicio-cards-img {
+    width: 50%;
+    height: 100%;
+  }
+  .servicios-section2 .servicio-granos {
+    padding-right: 2rem;
+  }
+  .servicios-section2 .servicio-granos div {
+    width: 41%;
+    height: 50%;
+  }
+  .servicios-section2 .servicio-granos .servicio-cards-img {
+    width: 50%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 725px) {
   header nav ul {
@@ -1314,6 +1580,28 @@ footer div p span {
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     grid-template-areas: "item1 item2" "item3 item4" "item5 item6";
+  }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-section2 section div {
+    width: 38%;
+    height: 50%;
+  }
+  .servicios-section2 section div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 section .servicio-cards-img {
+    width: 50%;
+  }
+  .servicios-section2 .servicio-granos div {
+    width: 38%;
+  }
+  .servicios-section2 .servicio-granos div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 .servicio-granos .servicio-cards-img {
+    width: 50%;
   }
 }
 @media screen and (max-width: 615px) {
@@ -1391,6 +1679,50 @@ footer div p span {
   }
   .section2 .nosotros {
     width: 400px;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-section2 section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-left: 1rem;
+    height: 28rem;
+  }
+  .servicios-section2 section div {
+    width: 45%;
+    height: 50%;
+  }
+  .servicios-section2 section div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 section .servicio-cards-img {
+    width: 50%;
+    height: 100%;
+  }
+  .servicios-section2 .servicio-granos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+  .servicios-section2 .servicio-granos div {
+    width: 45%;
+    height: 50%;
+  }
+  .servicios-section2 .servicio-granos div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 .servicio-granos .servicio-cards-img {
+    width: 50%;
+    height: 100%;
   }
 }
 @media screen and (max-width: 500px) {
@@ -1481,6 +1813,53 @@ footer div p span {
     grid-row-gap: 20px;
     grid-template-areas: "item1" "item2" "item3" "item4" "item5" "item6";
   }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-media1 {
+    height: 75vh;
+  }
+  .servicios-section2 section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-left: 1rem;
+    height: 28rem;
+  }
+  .servicios-section2 section div {
+    width: 45%;
+    height: 60%;
+  }
+  .servicios-section2 section div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 section .servicio-cards-img {
+    width: 50%;
+    height: 100%;
+  }
+  .servicios-section2 .servicio-granos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+  .servicios-section2 .servicio-granos div {
+    width: 45%;
+    height: 60%;
+  }
+  .servicios-section2 .servicio-granos div p {
+    font-size: 0.875rem;
+  }
+  .servicios-section2 .servicio-granos .servicio-cards-img {
+    width: 50%;
+    height: 100%;
+  }
 }
 @media screen and (max-width: 415px) {
   header {
@@ -1564,6 +1943,30 @@ footer div p span {
   .nosotros-section1 p {
     width: 250px;
     font-size: 14px;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  main .div-servicios {
+    height: 100%;
+    width: 100%;
+  }
+  main .div-servicios .img-servicios {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 85%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .servicios-media1 {
+    height: 75vh;
+  }
+  .servicios-media1 h2 {
+    font-size: 1.875rem;
+  }
+  .servicios-media1 h2 span {
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 375px) {
@@ -1669,6 +2072,53 @@ footer div p span {
   }
   .nosotros-background-image {
     height: 100vh;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------servicios-----------------------*/
+  /*--------------------------------------------------*/
+  .servicios-section2 section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    padding-left: 1rem;
+    height: 28rem;
+  }
+  .servicios-section2 section div {
+    width: 45%;
+    height: 70%;
+    padding-left: 0.5rem;
+  }
+  .servicios-section2 .servicio-granos {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-right: 1rem;
+  }
+  .servicios-section2 .servicio-granos div {
+    width: 45%;
+    height: 70%;
+    padding-left: 0.5rem;
+  }
+  /*--------------------------------------------------*/
+  /*-------------------contacto-----------------------*/
+  /*--------------------------------------------------*/
+  .iconos-contacto div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .iconos-contacto div img {
+    height: 45px;
+    width: auto;
   }
 }
 

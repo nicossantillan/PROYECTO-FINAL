@@ -58,4 +58,35 @@
             "item3 item4"
             "item5 item6";
         }
+                /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+        .servicios-section2{
+            section{
+                div{
+                    width: 38%;
+                    height: 50%;
+                    p{
+                        font-size: .875rem;
+                    }
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                                }
+            }
+            .servicio-granos{
+                div{
+                    width: 38%;
+                    p{
+                        font-size: .875rem;
+                    }
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                }
+            }
+        }
 }

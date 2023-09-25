@@ -16,4 +16,25 @@
 .nosotros-section1{
     margin-bottom:50px;
 }
+                /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+        .servicios-section2{
+            section{
+                height: 30rem;
+                .servicio-cards-img{
+                    width: 59%;
+                    height: 100%;
+                }
+            }
+            .servicio-granos{
+                .servicio-cards-img{
+                    width: 59%;
+                    height: 100%;
+                }
+            }
+        }
 }

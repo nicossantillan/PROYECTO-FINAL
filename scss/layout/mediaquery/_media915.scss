@@ -40,4 +40,37 @@
         .sucursal-background-image{
             height: 100vh;
         }
+                        /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+        .servicios-section2{
+            section{
+                padding-left: 2rem;
+                height: 28rem;
+                div{
+                    width: 41%;
+                    height: 50%;
+
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+            .servicio-granos{
+                padding-right: 2rem;
+                div{
+                    width: 41%;
+                    height: 50%;
+
+                }
+                .servicio-cards-img{
+                    width: 50%;
+                    height: 100%;
+                }
+            }
+        }
 }

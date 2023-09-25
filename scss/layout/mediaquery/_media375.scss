@@ -94,4 +94,47 @@
         .nosotros-background-image{
             height: 100vh;
         }
+                                /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+        .servicios-section2{
+            section{
+                @include flex (column,wrap, center, flex-end, 1rem);
+                padding-left: 1rem;
+                height: 28rem;
+                div{
+                    width: 45%;
+                    height: 70%;
+                    padding-left: .5rem;
+                }
+            }
+            .servicio-granos{
+                @include flex (column, wrap, center, flex-start, 1rem);
+                padding-right: 1rem;
+                div{
+                    width: 45%;
+                    height: 70%;
+                    padding-left: .5rem;
+                }
+            }
+        }
+        /*--------------------------------------------------*/
+        
+        /*-------------------contacto-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+        .iconos-contacto{
+            div{
+                @include flex (column, wrap, center, center, .5rem);
+                img{
+                    height: 45px;
+                    width: auto;
+                }
+            }
+        
+        }
 }

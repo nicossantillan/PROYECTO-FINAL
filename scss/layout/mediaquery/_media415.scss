@@ -75,4 +75,34 @@
             font-size: 14px;
         }
     }
+                        /*--------------------------------------------------*/
+        
+        /*-------------------servicios-----------------------*/
+        
+        /*--------------------------------------------------*/
+
+    main{
+        .div-servicios{
+            height: 100%;
+            width: 100%;
+            .img-servicios{
+                position: absolute;
+                top:0;
+                left: 0;
+                height: 85%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+    
+.servicios-media1{
+    height: 75vh;
+    h2{
+        span{
+            font-size: 2.5rem;
+    }
+    font-size: 1.875rem;
+}
+}
 }

@@ -31,6 +31,7 @@
   color: azure;
   text-align: center;
   transition: ease 0.2s;
+  cursor: pointer;
   &:hover{
       transition: ease 0.2s;
       scale:1.2;
@@ -39,6 +40,7 @@
       padding: .8rem 1.2rem .8rem 1.2rem;
       border-radius: .75rem;
       border:none;
+      cursor: pointer;
   }
   a{
       text-decoration: none;
