@@ -71,19 +71,19 @@ main{
         width: 43.75rem;
         @include flex (column, wrap, flex-start, flex-start, 1.6rem);
         small{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 600;
             font-size: 1.3rem;
             color: rgb(151, 76, 15);
         }
         h2{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 600;
             color:rgb(26, 26, 26);
             font-size: 35px;
         }
         p{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 400;
             color:rgb(26, 26, 26);
             font-size: 16px;
@@ -97,7 +97,7 @@ main{
     padding-bottom:70px;
     div{
         h2{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 600;
             font-size: 2rem;
             color: rgb(151, 76, 15);
@@ -109,14 +109,14 @@ main{
         article{
             @include flex (column, wrap, center, center, 3rem);
             h3{
-                font-family: 'Work Sans', sans-serif;
+                font-family: $font-familiy;
                 font-weight: 600;
                 font-size: 2rem;
                 color: rgb(151, 76, 15);
             }
             p{
                 width: 460px;
-                font-family: 'Work Sans', sans-serif;
+                font-family: $font-familiy;
                 font-weight: 500;
                 color:rgb(26, 26, 26);
                 font-size: 16px;
@@ -206,7 +206,7 @@ figure:hover img {
         width:50vh;
                     @include flex (column, wrap, center, center, 2rem);
         h2{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 600;
             font-size: 2rem;
             color: rgb(255, 131, 30);

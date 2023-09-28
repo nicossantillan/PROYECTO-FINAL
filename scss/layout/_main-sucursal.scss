@@ -11,7 +11,7 @@
     padding: 3.125rem 0rem 3.125rem 0rem;
     background-color: rgb(255, 255, 255);
     h2{
-        font-family: 'Work Sans', sans-serif;
+        font-family: $font-familiy;
         font-weight: 600;
         font-size: 1.875rem;
         color: rgb(151, 76, 15);
@@ -167,7 +167,7 @@
             color:rgb(255, 136, 0);
         }
         p{
-            font-family: 'Work Sans',sans-serif;
+            font-family: $font-familiy;
             font-size: 15px;
             font-weight: 600;
             color:white;

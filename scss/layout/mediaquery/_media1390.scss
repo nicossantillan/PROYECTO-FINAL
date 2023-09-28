@@ -23,7 +23,7 @@
             width:50vh;
                         @include flex (column, wrap, center, center, 2rem);
             h2{
-                font-family: 'Work Sans', sans-serif;
+                font-family: $font-familiy;
                 font-weight: 600;
                 font-size: 2rem;
                 color: rgb(255, 131, 30);

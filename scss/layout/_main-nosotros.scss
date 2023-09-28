@@ -14,7 +14,7 @@
     margin-bottom: 200px;
     @include flex (column, wrap, center, center, 1.5rem);
     small{
-            font-family: 'Work Sans', sans-serif;
+            font-family: $font-familiy;
             font-weight: 600;
             font-size: 1rem;
             color: rgb(255, 198, 151);
@@ -80,7 +80,7 @@
                 @include flex (column, wrap, center, center, 1rem);
                 width: 400px;
                 text-align: center;
-                font-family: 'Work Sans', sans-serif;
+                font-family: $font-familiy;
                 small{
                     font-weight: 600;
                 }

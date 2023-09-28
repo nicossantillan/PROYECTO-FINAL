@@ -181,19 +181,19 @@ main .capa {
   gap: 1.6rem;
 }
 .section2 .nosotros small {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 1.3rem;
   color: rgb(151, 76, 15);
 }
 .section2 .nosotros h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   color: rgb(26, 26, 26);
   font-size: 35px;
 }
 .section2 .nosotros p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 400;
   color: rgb(26, 26, 26);
   font-size: 16px;
@@ -211,7 +211,7 @@ main .capa {
   padding-bottom: 70px;
 }
 .section3 div h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 2rem;
   color: rgb(151, 76, 15);
@@ -234,14 +234,14 @@ main .capa {
   gap: 3rem;
 }
 .section3 .especialidades article h3 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 2rem;
   color: rgb(151, 76, 15);
 }
 .section3 .especialidades article p {
   width: 460px;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 500;
   color: rgb(26, 26, 26);
   font-size: 16px;
@@ -344,7 +344,7 @@ figure:hover img {
   gap: 2rem;
 }
 .lista-servicios h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 2rem;
   color: rgb(255, 131, 30);
@@ -386,7 +386,7 @@ figure:hover img {
   gap: 1.5rem;
 }
 .nosotros-section1 small {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 1rem;
   color: rgb(255, 198, 151);
@@ -483,7 +483,7 @@ figure:hover img {
   gap: 1rem;
   width: 400px;
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
 }
 .nosotros-section3 section article div small {
   font-weight: 600;
@@ -535,7 +535,7 @@ figure:hover img {
   background-color: rgb(255, 255, 255);
 }
 .sucursal-section2 h2 {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   font-size: 1.875rem;
   color: rgb(151, 76, 15);
@@ -695,7 +695,7 @@ figure:hover img {
   color: rgb(255, 136, 0);
 }
 .content-details p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-size: 15px;
   font-weight: 600;
   color: white;
@@ -910,7 +910,7 @@ main .div-servicios .img-servicios {
   text-align: center;
 }
 .iconos-contacto div p span {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   color: white;
   font-size: 15px;
   font-weight: 700;
@@ -1090,16 +1090,16 @@ footer section .footer3 div input {
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
 }
 footer div p {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 500;
   color: rgb(255, 255, 255);
   font-size: 16px;
 }
 footer div p span {
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   color: rgb(247, 170, 3);
   font-size: 18px;
@@ -1134,7 +1134,7 @@ footer div p span {
   border: none;
   background-color: rgba(253, 114, 0, 0.623);
   padding: 0.8rem 1.2rem 0.8rem 1.2rem;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 500;
   font-size: 1rem;
   color: azure;
@@ -1219,7 +1219,7 @@ footer div p span {
   min-height: 87px;
   margin: 0 0 25px;
   overflow: hidden;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: bold;
   font-size: 2rem;
   text-align: center;
@@ -1232,7 +1232,7 @@ footer div p span {
   font-size: 18px;
   color: #d4d4d4;
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   font-weight: 600;
   z-index: 2;
   position: relative;
@@ -1241,7 +1241,7 @@ footer div p span {
 .ag-courses-item_date {
   font-weight: bold;
   color: #d3d3d3;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Work Sans", San-Serif;
   -webkit-transition: color 0.5s ease;
   -o-transition: color 0.5s ease;
   transition: color 0.5s ease;
@@ -1341,7 +1341,7 @@ footer div p span {
     gap: 2rem;
   }
   .lista-servicios h2 {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", San-Serif;
     font-weight: 600;
     font-size: 2rem;
     color: rgb(255, 131, 30);
@@ -1756,7 +1756,7 @@ footer div p span {
     padding-bottom: 70px;
   }
   .section3 div h2 {
-    font-family: "Work Sans", sans-serif;
+    font-family: "Work Sans", San-Serif;
     font-weight: 600;
     font-size: 2rem;
     color: rgb(151, 76, 15);
